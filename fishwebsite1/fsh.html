@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+
+        .heading {
+            text-align: center;
+            animation-fill-mode: inherit;
+        }
+
+        .headerimg {
+            float: center;
+            width: 50px;
+            height: 50px;
+        }
+
+        .headerlabel {
+            text-align: center;
+            font-size: x-large;
+        }
+
+        .tabs {
+            overflow: hidden;
+            background-color: #e9e9e9
+        }
+
+            .tabs a {
+                float: left;
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                .tabs a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                .tabs a.active {
+                    background-color: #2196F3;
+                    color: white;
+                }
+
+            .tabs input[type=text] {
+                float: right;
+                padding: 6px;
+                border: none;
+                margin-top: 8px;
+                margin-bottom: 8px;
+                margin-right: 16px;
+                font-size: 17px;
+            }
+
+        .box {
+            background-color: rgb(245, 247, 252);
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 340px 340px 340px;
+            grid-gap: 5px;
+            padding: 5px;
+        }
+
+        .box1 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+            width: 150px;
+            text-align: center;
+            justify-content: center;
+            border: 15px;
+            background-color: rgb(54,51,255);
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 50px;
+            margin: 50px;
+        }
+
+            .box1:hover {
+                transform: scale(1.25);
+            }
+
+        .box2 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+            width: 150px;
+            text-align: center;
+            justify-content: center;
+            border: 15px;
+            background-color: rgb(255, 51, 230);
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 50px;
+            margin: 50px;
+        }
+
+            .box2:hover {
+                transform: scale(1.25);
+            }
+
+        .box3 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+            width: 150px;
+            text-align: center;
+            justify-content: center;
+            border: 15px;
+            background-color: rgb(255, 51, 82);
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 50px;
+            margin: 50px;
+        }
+
+            .box3:hover {
+                transform: scale(1.25);
+            }
+
+        .box4 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+            width: 150px;
+            text-align: center;
+            justify-content: center;
+            border: 15px;
+            background-color: rgb(51, 255, 51);
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 50px;
+            margin: 50px;
+        }
+
+            .box4:hover {
+                transform: scale(1.25);
+            }
+
+        .box5 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+            width: 150px;
+            text-align: center;
+            justify-content: center;
+            border: 15px;
+            background-color: rgb(255, 249, 51);
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 50px;
+            margin: 50px;
+        }
+
+            .box5:hover {
+                transform: scale(1.25);
+            }
+
+        .box6 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+            width: 150px;
+            text-align: center;
+            justify-content: center;
+            border: 15px;
+            background-color: rgb(255, 156, 51);
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 50px;
+            margin: 50px;
+        }
+
+            .box6:hover {
+                transform: scale(1.25);
+            }
+
+        .box7 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+            width: 150px;
+            text-align: center;
+            justify-content: center;
+            border: 15px;
+            background-color: rgb(255, 51, 51);
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 50px;
+            margin: 50px;
+        }
+
+            .box7:hover {
+                transform: scale(1.25);
+            }
+
+        .box8 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+            width: 150px;
+            text-align: center;
+            justify-content: center;
+            border: 15px;
+            background-color: rgb(41, 120, 157);
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 50px;
+            margin: 50px;
+        }
+
+            .box8:hover {
+                transform: scale(1.25);
+            }
+
+        .box9 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+            width: 150px;
+            text-align: center;
+            justify-content: center;
+            border: 15px;
+            background-color: rgb(100, 125, 92);
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 50px;
+            margin: 50px;
+        }
+
+            .box9:hover {
+                transform: scale(1.25);
+            }
+
+        .hiv:hover {
+            transform: scale(1.25);
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <img src="C:\Users\Directoratefisheries\Desktop\fishV1\image.png" align="center" width="50px" height="50px">
+        <label style="font-size: 30px;font-family: sans-serif;">Department of Fisheries </label><br />Government of Karnataka
+    </div>
+    <div class="tabs">
+
+
+        <input type="text" placeholder="search"><button class="hiv" style="float:right; text-align: right; margin-top:12px; margin-right:5px "><img src="C:\Users\Directoratefisheries\Desktop\fishV1\search.png" width=20px height="20px" align="center"></button>
+    </div>
+    <div class="box">
+        <div class="box1"><img src="C:\Users\Directoratefisheries\source\repos\fishwebsite1\fishwebsite1\images\about.png" width="40px" height="40px"><br /><a href="https://fisheries.karnataka.gov.in/info-1/About+Us/en">ABOUT US</a></div>
+        <div class="box2"><img src="C:\Users\Directoratefisheries\source\repos\fishwebsite1\fishwebsite1\schemes.png" width="40px" height="40px"><br /><a href="C:\Users\Directoratefisheries\Desktop\fishV1\pmmsy.Html">PMMSY</a></div>
+
+        <div class="box3"><img src="C:\Users\Directoratefisheries\source\repos\fishwebsite1\fishwebsite1\images\sevasindhu.png" width="40px" height="40px"><br /><a href="https://serviceonline.gov.in/karnataka/">SEVASINDHU</a></div>
+        <div class="box4"><img src="C:\Users\Directoratefisheries\source\repos\fishwebsite1\fishwebsite1\images\orders.png" width="40px" height="40px"><br /><a href="https://drive.google.com/file/d/1aqLsWpnAScwnqfY_b4_1CPvKlrJdNEYu/view?usp=sharing">MOBILE APPLICATION</a></div>
+        <div class="box5"><img src="C:\Users\Directoratefisheries\source\repos\fishwebsite1\fishwebsite1\images\sakala.PNG" width="40px" height="40px"><br /><a href="http://sakala.kar.nic.in/officer/">SAKALA</a></div>
+        <div class="box6"><img src="C:\Users\Directoratefisheries\source\repos\fishwebsite1\fishwebsite1\images\frims.png" width="40px" height="40px"><br /><a href="https://frims.kar.nic.in/">FRIMS</a></div>
+        <div class="box7"><img src="C:\Users\Directoratefisheries\source\repos\fishwebsite1\fishwebsite1\images\publications.png" width="40px" height="40px"><br /><a href="">PUBLICATIONS</a></div>
+        <div class="box8"><img src="C:\Users\Directoratefisheries\source\repos\fishwebsite1\fishwebsite1\images\circulars.png" width="40px" height="40px"><br /><a href="">CIRCULARS</a></div>
+        <div class="box9"><img src="C:\Users\Directoratefisheries\source\repos\fishwebsite1\fishwebsite1\images\datasheet.png" width="40px" height="40px"><br /><a href="https://docs.google.com/spreadsheets/u/0/create?usp=sheets_home&ths=true">SPREAD SHEET</a></div>
+
+    </div>
+
+</body>
+</html>
