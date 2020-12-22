@@ -67,24 +67,40 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fishoutlook.aspx" />
+    <Content Include="fshCSS.css" />
     <Content Include="images\about.png" />
     <Content Include="images\circulars.png" />
     <Content Include="images\datasheet.png" />
     <Content Include="images\frims.png" />
-    <Content Include="fsh.html" />
     <Content Include="images\govtpng.png" />
     <Content Include="images\image.png" />
     <Content Include="images\images.png" />
     <Content Include="images\orders.png" />
-    <Content Include="PMMSY.html" />
     <Content Include="images\publications.png" />
     <Content Include="images\sakala.PNG" />
     <Content Include="images\schemes.png" />
     <Content Include="images\search.png" />
     <Content Include="images\sevasindhu.png" />
+    <Content Include="pmmsyCSS.css" />
+    <Content Include="PMMSYoutlook.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fishoutlook.aspx.cs">
+      <DependentUpon>fishoutlook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fishoutlook.aspx.designer.cs">
+      <DependentUpon>fishoutlook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PMMSYoutlook.aspx.cs">
+      <DependentUpon>PMMSYoutlook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PMMSYoutlook.aspx.designer.cs">
+      <DependentUpon>PMMSYoutlook.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
