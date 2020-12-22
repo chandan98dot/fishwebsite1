@@ -67,7 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fishoutlook.aspx" />
+    <Content Include="index.aspx" />
     <Content Include="fshCSS.css" />
     <Content Include="images\about.png" />
     <Content Include="images\circulars.png" />
@@ -87,12 +87,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fishoutlook.aspx.cs">
-      <DependentUpon>fishoutlook.aspx</DependentUpon>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="fishoutlook.aspx.designer.cs">
-      <DependentUpon>fishoutlook.aspx</DependentUpon>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="PMMSYoutlook.aspx.cs">
       <DependentUpon>PMMSYoutlook.aspx</DependentUpon>
